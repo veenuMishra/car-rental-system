@@ -8,6 +8,6 @@ public class ReservationController {
   String barcode="some_string";
   @GetMapping("/reserve/{barcode}")
   boolean reserveVehicle(@PathVariable String barcode) {
-    return true;
+    return false;
   }
 }
